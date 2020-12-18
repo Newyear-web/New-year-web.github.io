@@ -1,0 +1,14 @@
+body{
+	background-image: url(https://lifeglobe.net/x/entry/630/New_Year_wallpapers_Snowflakes___New_Year_011363__3.jpg);
+}
+div{
+	color: white;
+	background-color: blue;
+	font-size: 45px;
+	border-style: solid;
+	border-radius: 25px;
+	opacity: .5;
+}
+div:hover{
+	font-size: 50px;
+}
