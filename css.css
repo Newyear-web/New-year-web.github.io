@@ -13,4 +13,6 @@ div:hover{
 	font-size:50px;
 	transition:scale(1.5,1.5);
     transition:0.5s;
+    opacity:.8;
+    background-color:#4242d7;
 }
